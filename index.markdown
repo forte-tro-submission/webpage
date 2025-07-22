@@ -428,7 +428,7 @@ highlight {
   <tr>
     <td>
       <p align="justify" width="20%">
-        The FORTE Finger is designed for easy manufacturing via 3D printing. We will open-source the design after acceptance.</a>.
+        The FORTE Finger is designed for easy manufacturing via 3D printing. We will open-source the design after acceptance.
       </p>
     </td>
   </tr>
