@@ -21,6 +21,7 @@ categories: projects
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'G-DS96PNT4GE');
 </script>
 
 
@@ -149,7 +150,7 @@ highlight {
 <div style="height: 4px;"></div>
 <center>
   <h1>
-    <strong>FORTE : Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</strong>
+    <strong>FORTE: Tactile Force and Slip Sensing on Compliant Fingers for Delicate Manipulation</strong>
   </h1>
 </center>
 <center>
@@ -162,9 +163,11 @@ highlight {
   <tbody>
     <tr>
       <td align="center" valign="middle">
-        <video muted autoplay playsinline loop width="798">
-          <source src="./src/video/header.mp4"  type="video/mp4">
-        </video>
+        <iframe width="798" height="449"
+          src="https://www.youtube.com/embed/grAuLHUeDBw?si=XQh_g36VIA9vLTuQ?autoplay=1&mute=1&loop=1"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+        >
+        </iframe>  
       </td>
     </tr> 
   </tbody> 
@@ -177,7 +180,7 @@ highlight {
         <tr>
           <td>
             <p align="justify" width="20%">
-              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by their heavy reliance on visual feedback. Tactile sensing and soft robotics can add responsiveness and compliance. However, existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce FORTE, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide low-latency force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0-8 N with an average error of 0.2 N, and detect slip events within 100 ms of occurring. We demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and potato chips with a 98.6% success rate, and achieves 93% accuracy in detecting slip events. These results highlight FORTE's potential as a robust and practical solution for enabling delicate robotic manipulation.
+              Handling delicate and fragile objects remains a major challenge for robotic manipulation, especially for rigid parallel grippers. While the simplicity and versatility of parallel grippers have led to widespread adoption, these grippers are limited by their heavy reliance on visual feedback. Tactile sensing and soft robotics can add responsiveness and compliance. However, existing methods typically involve high integration complexity or suffer from slow response times. In this work, we introduce <b>FORTE</b>, a tactile sensing system embedded in compliant gripper fingers. FORTE uses 3D-printed fin-ray grippers with internal air channels to provide low-latency force and slip feedback. FORTE applies just enough force to grasp objects without damaging them, while remaining easy to fabricate and integrate. We find that FORTE can accurately estimate grasping forces from 0-8 N with an average error of 0.2 N, and detect slip events within 100 ms of occurring. We demonstrate FORTE's ability to grasp a wide range of slippery, fragile, and deformable objects. In particular, FORTE grasps fragile objects like raspberries and potato chips with a 98.6% success rate, and achieves 93% accuracy in detecting slip events. These results highlight FORTE's potential as a robust and practical solution for enabling delicate robotic manipulation.
       	    </p>
           </td>
         </tr>
@@ -190,40 +193,92 @@ highlight {
 <center><h1>Slip Detection</h1></center>
 
 <table border="0" cellspacing="10" cellpadding="0" align="center">
-  <!-- Glasses -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/glasses_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
-  <!-- Mandarin -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/mandarin_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
-  <!-- Nutella -->
-  <tr>
-    <td align="center" valign="middle">
-      <video muted controls width="600">
-        <source src="./src/video/slip_video/nutella_slip_indication.mp4" type="video/mp4">
-        Your browser doesn’t support MP4.
-      </video>
-    </td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/mandarin.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/eyeglasses.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bottle.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/nutella.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/soda.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/whisky.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/apple.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/egg.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bililard.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/bottle_vertical.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/tuna.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/pringles.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle"></td>
+      <td align="center" valign="middle">
+        <video muted controls width="258">
+          <source src="./src/video/slip/soup.mp4"  type="video/mp4">
+        </video>
+      </td>
+      <td align="center" valign="middle"></td>
+    </tr>
+  </tbody>
 </table>
 
 
 <hr>
 <center><h1>Force Sensing</h1></center>
 
-<table border="0" cellspacing="10" cellpadding="0" align="center" width="1000px">
+<table border="0" cellspacing="10" cellpadding="0" align="center" width="800px">
   <!-- Column Headers -->
   <tr>
     <td align="center" style="font-weight:600; font-size:20px;">FORTE's Force Sensing</td>
@@ -349,6 +404,32 @@ highlight {
       <video muted controls width="394">
         <source src="./src/video/force_video/On-Off/Cup_S_On-Off.mp4" type="video/mp4">
       </video>
+    </td>
+  </tr>
+</table>
+
+<hr>
+
+<h1 align="center">Finger Fabrication</h1>
+
+<table border="0" cellspacing="10" cellpadding="0" align="center">
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <video class="lazy-video" muted loop width="798">
+          <source src="./src/video/tutorial.mp4"  type="video/mp4">
+        </video>
+      </td>
+    </tr> 
+  </tbody> 
+</table>
+
+<table align=center width=800px>
+  <tr>
+    <td>
+      <p align="justify" width="20%">
+        The FORTE Finger is designed for easy manufacturing via 3D printing. We will open-source the design after acceptance.</a>.
+      </p>
     </td>
   </tr>
 </table>
